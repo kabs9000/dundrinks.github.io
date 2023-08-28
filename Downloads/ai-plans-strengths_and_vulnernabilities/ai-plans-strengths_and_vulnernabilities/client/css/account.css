@@ -1,0 +1,195 @@
+#content{
+	max-width: 420px;
+	width: 100%;
+	display: inline-block;
+/* 	padding-bottom: 100px; */
+}
+
+
+#account-wrap{
+	border: 2px solid green;
+/* 	border: 2px solid; */
+}
+#user-wrap{
+/* 	border: 2px solid blue; */
+	margin-top: 50px;
+}
+
+#active-wrap{
+/* 	border: 2px solid teal; */
+}
+
+#active-wrap,
+#inventory-wrap{
+	margin-top: 80px;
+}
+
+input[type=color]{
+	padding: 0px !important;
+	display: inline-block;
+    vertical-align: middle;
+    border: 0px;
+}
+
+form{
+	margin: 10px 0;
+/* 	background: rgba(0, 0, 0, .1); */
+	padding: 5px;
+
+}
+
+form label{
+	font-weight: bold;
+	display: block;
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=password]{
+	width: 300px;
+	font-weight: bold;
+	color: #4b4949;
+}
+form input[type=submit]{
+	float: right;
+	transform: translate(0, -15px);
+}
+form input::placeholder{
+	color: #9f9f9f;
+}
+
+form input:disabled{
+	border: 0px;
+}
+
+
+#hosting-wrap h3{
+	text-align: center;
+}
+
+#hosting-wrap button[type=submit]{
+/* 	padding: 10px; */
+	background: #535ccd;
+	border: 0px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	position: absolute;
+	right: 5px;;
+	bottom: 0px;
+}
+.pal-item{
+	margin: 30px 0;
+	background: #def7ff;
+	padding: 10px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, .3)
+}
+#logo-wrap{
+	text-align: center;
+}
+#active-wrap .pal-item button{
+	opacity: 0;
+	pointer-events: none;
+}
+
+.pal-item .detail{
+	position: relative;
+/* 	margin: 10px 0; */
+	padding: 10px;
+}
+form.pal-item .column:nth-of-type(1){
+	max-width: 80%;
+}
+form.pal-item .column:nth-of-type(2){
+	max-width: 18%;
+	margin-left: 2%;
+}
+form.pal-item .column:nth-of-type(2) img{
+	border-radius: 8px;
+}
+form.pal-item .button{
+	background: #15598a;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+/* 	float: right; */
+}
+form.pal-item .button:hover{
+	background: #4a8cbc;
+}
+form.pal-item .untoggle{
+	display: none;
+}
+form.pal-item.toggled .toggle{
+	display: none;
+}
+form.pal-item.toggled .untoggle{
+	display: inline-block;
+}
+form.pal-item .description{
+	cursor: pointer;
+	background: rgba(255, 255, 255, .4);
+	border-radius: 5px;
+}
+form.pal-item .price{
+	padding-bottom: 0;
+}
+form.pal-item .description:hover{
+/* 	font-weight: bold; */
+}
+
+#user-wrap .button{
+	opacity: 0;
+/* 	background: lightgrey; */
+}
+#user-wrap form:hover .button{
+	opacity: 1;
+}
+#user-wrap form:hover{
+	background: #e4e3e3;
+/* 	background: #dcdcdc; */
+}
+#user-wrap label{
+	color: #7d7b7b;
+}
+#user-wrap input[type=text],
+#user-wrap input[type=password]{
+	font-size: 1.2rem;
+	padding: 3px;
+}
+
+#stripe-email{
+	text-align: center;
+	color: rgb(50, 10, 50);
+	margin-top: 10px;
+}
+
+#billing-expl{
+	text-align: center
+}
+
+#user-actions{
+	margin-bottom: 30px;
+}
+
+#user-actions .button{
+	font-size: 1rem;
+}
+
+.button.remove{
+	background: none;
+	color: #703030;
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 800px){
+	form {
+		margin: 30px 0;
+	}
+	form input[type=submit]{
+		position: absolute;
+		right: 0;
+	}
+	form input[type=text]{
+		max-width: calc(100% - 100px);
+	}
+}

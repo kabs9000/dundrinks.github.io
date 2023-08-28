@@ -1,0 +1,68 @@
+/*asdf*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+#timer{
+    width: 100%;
+}
+
+.timer-section{
+    height: calc(33vh - 40px);
+    position: relative;
+}
+
+.timer-section.left{
+    background: mintcream;
+}
+.timer-section.center{
+    background: #d4d4d4;
+}
+.timer-section.right{
+    background: #161515;
+}
+
+.timer-section.left,
+.timer-section.right{
+    z-index: 9;
+    box-shadow: 0px 0px 40px black;
+}
+.timer-section.left:active,
+.timer-section.right:active{
+    background: red;
+}
+
+#controls{
+    display: inline-block;
+    width: 150px;
+    padding: 20px;
+    background: grey;
+    height: 100%;
+    vertical-align: middle;
+}
+#controls>*{
+    margin: 5px 0;
+}
+#turn-arrow{
+    font-size: 3rem;
+}
+
+#display-ele{
+    border: 0px solid;
+    display: inline-block;
+    width: calc( 100% - 190px);
+    height: calc( 30vh - 100px);
+    vertical-align: middle;
+}
+
+#duration input{
+    padding: 8px;
+    border: 2px solid;
+    font-weight: bold;
+}
+
+#start{
+    background: green;
+}

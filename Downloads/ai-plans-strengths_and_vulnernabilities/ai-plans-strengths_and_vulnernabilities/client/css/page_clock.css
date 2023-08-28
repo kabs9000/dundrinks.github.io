@@ -1,0 +1,164 @@
+body{
+    background: #444444;
+    color: lightgrey;
+}
+
+#header{
+    background: #806781;
+    border-bottom: 1px solid black;
+}
+
+.active{
+    color: black;
+}
+
+#menu,
+#controls-stopwatch{
+    text-align: center;
+}
+
+#menu>div,
+#controls-stopwatch>div{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#controls{
+/*     border: 2px solid pink; */
+    margin-top: 60px;
+    min-height: 50px;
+}
+
+div.stop,
+#controls-stopwatch>div.stop,
+div.reset,
+#controls-stopwatch>div.reset{
+    display: none;
+}
+
+.stop{
+    background: rgb(231 69 69 / 94%);
+    color: black;
+}
+.start{
+    background: rgb(63 185 63 / 68%);
+    color: black;
+}
+.reset{
+    background: rgb(63 185 63 / 68%);
+    color: black;
+}
+.start,
+.stop,
+.reset{
+    cursor: pointer
+}
+
+#menu>div:hover,
+#menu>div.active,
+/* #controls-stopwatch>div:hover, */
+#controls-stopwatch>div.active{
+    background: #8d8a8a;
+}
+
+#clock{
+/*     border: 2px solid green; */
+    text-align: center;
+    margin-top: 50px;
+}
+
+#clock>div{
+    display: inline-block;
+/*     border: 2px solid blue; */
+    min-width: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hours,
+.minutes,
+.seconds{
+    display: inline-block;
+    margin: 0 10px;
+/*     border: 2px solid; */
+}
+.hours input,
+.minutes input,
+.seconds input{
+    width: 80px;
+    height: 40px;
+}
+
+#controls-timer,
+#controls-alarm{
+/*     display: inline-block; */
+    text-align: center;
+}
+
+.start,
+.stop,
+.reset{
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+#sample-sound{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background: #dac6a247;
+    padding: 5px;
+    color: black;
+/*     text-align: right; */
+}
+#sample-sound span{
+    padding: 10px;
+    display: inline-block;
+    background: #54be97;
+    font-weight: bold;
+    margin: 0 20px;
+    cursor: pointer;
+    user-select: none;
+}
+#content #sound-state span{
+    background: white;
+}
+
+#sample-sound span:active{
+    background: #c96df0;
+}
+
+input[type=number]{
+    font-size: 20px;
+    font-weight: bold;
+    background: #2a2929;
+    color: white;
+    border: 1px solid black;;
+}
+
+/* .num-controls{
+    position: fixed;
+}
+.num-control{
+    background: #0ef0f0;
+    padding: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+}
+.num-control:active{
+    background: #b1ecec;
+}
+.num-control.up{
+    transform: rotate(-90deg);
+}
+.num-control.down{
+    transform: rotate(90deg);
+}
+ */
+
+span{
+/*     font-family: Georgia; */
+}

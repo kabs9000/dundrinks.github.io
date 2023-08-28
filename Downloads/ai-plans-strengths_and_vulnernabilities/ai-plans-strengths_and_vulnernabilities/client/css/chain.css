@@ -1,0 +1,47 @@
+/*asdf*/
+
+/* .chain-name{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#content{
+    max-width: 800px;
+    padding-top: 120px;
+}
+
+label{
+    font-size: .8rem;
+    margin: 15px 0;
+    display: inline-block;
+}
+
+#response-area{
+    padding-left: 50px;
+}
+
+.link-wrap{
+    margin: 10px 0
+}
+.link-name{
+    font-weight: bold;
+} */
+
+
+canvas{
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+.upper-canvas{
+    cursor: move,
+}
+
+#content{
+    padding-top: 60px;
+}
+
+.button.delete{
+    background: maroon;
+    float: right;
+}

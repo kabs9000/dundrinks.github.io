@@ -1,0 +1,206 @@
+/*asdf*/
+
+.canvas-container{
+/*     border: 2px solid blue; */
+    width: 100%;
+    max-width: 100%;
+}
+
+.canvas-container canvas{
+    width: 100%;
+    max-width: 100%;
+}
+
+.adding-trade{
+    animation: adding_trade 1.5s infinite linear;
+}
+
+#mouse-tooltip .clarification{
+    background: lightgreen;
+    padding: 3px;
+}
+
+/* #deviators-results{
+    border: 20px solid red;
+} */
+.deviation-row{
+    position: relative;
+}
+.deviation-row *{
+    font-size: initial;
+}
+.deviation-row .left{
+    width: 30%;
+}
+.deviation-row .right{
+    width: 70%;
+}
+.dev-graph{
+    display: inline-block;
+    width: 100%;
+/*     height: auto; */
+    border: 2px solid;
+    height: 100px;
+    position: relative;
+}
+.dev-graph>div{
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    height: 5px;
+}
+.dev-low{
+    background: #48488f;
+    bottom: 0px;
+}
+.dev-high{
+    background: lightblue;
+}
+.dev-avg{
+    background: #9f9fe8;
+}
+.dev-current{
+    background: orange;
+}
+
+.dev-hover{
+    position: absolute;
+    z-index: 9;
+    display: none;
+    top: 0;
+    right: 0;
+    background: rgba(255, 255, 255, .8);
+    padding: 10px;
+    font-size: .7rem;
+}
+.dev-hover div .key{
+    padding: 3px;
+}
+.deviation-row:hover .dev-hover{
+    display: inline-block;
+}
+
+
+
+.coin-holding-form{
+	position: relative;
+	padding: 20px 5px 10px 5px;
+	max-width: 150px;
+	background: rgb(180,220,180);
+	font-weight: initial;
+}
+.coin-holding-form span:first-of-type{
+    font-size: .8rem;
+}
+.coin-holding-form input{
+	max-width: 100%;
+}
+.coin-holding-form .button{
+    font-size: .8rem;
+    margin-top: 5px;
+}
+.coin-holding-form .value-output{
+/*     font-size: .8rem */
+    padding: 5px 0;
+}
+.coin-holding-form .value-output span{
+    color: green;
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.info-row .coin-holding-form{
+    margin-top: 10px;
+}
+
+
+
+.column.symbol{
+	width: 130px;
+	font-weight: bold;
+}
+.column.chart{
+	border-left: 1px solid lightgrey;
+	width: calc( 100% - 130px );
+}
+
+
+.ticker-image{
+	position: absolute;
+	left: 0;
+	top: 25px;
+	max-width: 50px;
+}
+
+.coin-divide{
+    margin-right: 10px;
+}
+
+#content .data-row{
+	display: inline-block;
+	padding: 10px;
+}
+
+#content .key{
+	font-weight: bold;
+}
+
+#content .value{
+/* 	font-size: 1.5rem; */
+}
+
+.data-row .negative{
+	color: red;
+}
+
+.data-row .positive{
+	color: green;
+}
+
+#add-coin{
+	background: lightgreen;
+	color: black;
+	margin-right: 10px;
+}
+#add-coin:hover{
+	background: #6ab16a;
+}
+
+#coin-results-list{
+    max-height: 300px;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, .1);
+    padding: 10px;
+}
+
+.coin-button:hover{
+	background: lightgrey;
+}
+
+.watch-option{
+	cursor: pointer;
+}
+.watch-option:hover{
+	background: rgba(0, 0, 0, .2);
+}
+
+.listing-span{
+	background: #7f695b;
+}
+
+.add-trade{
+    margin-top: 20px;
+}
+
+
+@keyframes adding_trade {
+    0% {
+       background: #b4b4ef;  
+    }
+    80% {
+       background: white;  
+    }
+    100% {
+       background: #b4b4ef;  
+    }
+}

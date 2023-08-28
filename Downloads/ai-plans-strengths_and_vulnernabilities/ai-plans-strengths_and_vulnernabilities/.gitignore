@@ -1,0 +1,8 @@
+.*
+!.gitignore
+_storage/
+_storage/*
+package-lock.json
+fs/*
+node_modules/*
+client/js/env.js

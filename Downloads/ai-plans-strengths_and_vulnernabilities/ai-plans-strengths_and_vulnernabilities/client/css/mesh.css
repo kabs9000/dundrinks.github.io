@@ -1,0 +1,191 @@
+/*asdf*/
+
+*{
+    box-sizing: border-box;
+}
+
+#loaders{
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+canvas{
+/*     border: 2px solid; */
+}
+.lower-canvas{
+    background: #222121;
+}
+
+#content{
+    padding-top: 60px;
+}
+
+#prob-display{
+	background: grey;
+	color: white;
+	padding: 5px;
+	margin: 0 5px;
+}
+#ui-panel>.button:nth-of-type(2){
+	margin-left: 5px;
+	background: #242424;
+}
+#ui-panel>.button:nth-of-type(2):hover{
+	background: orange;
+}
+#change-prob{
+	padding: 2;
+}
+#change-prob div{
+	margin: 0;
+}
+
+.modal.set_prob .modal-content{
+	position: fixed;
+	max-width: 300px;
+	padding-top: 10px;
+	margin-top: 0;
+}
+.modal.read_node textarea{
+	min-height: 150px;
+}
+
+.spinner{
+    background: transparent !important;
+}
+.spinner>img{
+/* 	width: 50px; */
+	max-width: 100px !important;
+}
+
+
+
+#ui-panel{
+    position: fixed;
+    z-index: 9;
+    bottom: 0;
+	right: 0;
+    pointer-event: none;
+	padding: 7px 5px 5px 7px;
+	background: rgba(255, 255, 255, .5);
+	border-radius: 10px 0px 0 0;
+	box-shadow: 0px 0px 10px black, 0px 0px 10px black;
+}
+.ui-row{
+	background: rgba(0,0,0,.55);
+	margin: 1px 0;
+	padding: 2px 3px;
+	width: 100%;
+}
+#ui-panel .add-remove{
+    pointer-events: initial;
+	font-size: 1.5rem;
+	width: 35px;
+	margin-left: 5px;
+	
+}
+#ui-panel #probs{
+	display: inline-block;
+	padding-right: 30px;
+/* 	border: 2px solid */
+}
+#ui-panel #probs *{
+/* 	border: 2px solid red; */
+	display: inline-block;
+}
+#ui-panel .mesh-name{
+	font-weight: bold;
+}
+#ui-panel .metadata{
+	min-height: 40px;
+	position: relative;
+	padding-right: 50px;
+}
+#ui-panel .metadata>*{
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+}
+#ui-panel .metadata .button{
+	max-width: 40px;
+	position: absolute;
+	bottom: 5;
+	right: 5;
+}
+#mesh-cover-thumb{
+	min-width: 200px;
+}
+#mesh-cover-thumb img{
+	max-width: 200px;
+	display: inline-block;
+	width: 0;
+	transition: .2s;
+	cursor: pointer;
+}
+#ui-panel:hover #mesh-cover-thumb img{
+	width: 100%
+}
+.mesh-permit{
+	font-size: .8rem;
+	color: maroon;
+}
+.mesh-permit.active{
+	color: #68ee68;
+}
+.state-name{
+	display: inline-block;
+}
+
+.user-prob-wrap{
+	background: lightgrey;
+	padding: 15px;
+}
+
+.user-prob-wrap input{
+	background: white;
+}
+
+.set_new_prob .modal-content{
+	max-width: 800px;
+}
+.set_new_prob .modal-close{
+	right: calc(50% - 400px);
+}
+.edit_meta .modal-content{
+	max-height: 90vh;
+}
+.edit_meta textarea{
+	min-height: 150px;
+}
+.edit_meta .mesh-owner{
+	padding: 10px 0;
+	font-size: .8rem;
+	text-align: center
+}
+.edit_meta .mesh-image{
+/* 	border: 2px solid; */
+}
+.edit_meta .mesh-image img{
+	padding: 10px;
+}
+.modal.edit_meta img{
+	max-width: 100%;
+}
+
+.color-display{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.modal-content{
+	background: #1e1e1e;
+	border: 0px;
+	box-shadow: 0px 0px 10px black;
+}
+.modal-close{
+	background: #444444;
+	color: grey;
+	border: 0px;
+}

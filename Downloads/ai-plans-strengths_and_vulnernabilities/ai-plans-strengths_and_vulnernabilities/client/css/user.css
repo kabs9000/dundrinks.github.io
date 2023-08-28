@@ -1,0 +1,38 @@
+/*asdf*/
+
+#content{
+    max-width: 1000px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.user-wrap{
+    text-align: left;
+}
+
+#user-posts{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.user-post{
+    margin: 10px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.user-post:hover{
+/*     background: lightgrey; */
+}
+
+.user-post .post-title{
+    font-weight: bold;
+}
+
+.post-created{
+    font-size: .8rem;
+}
+.post-created a{
+    text-decoration: none;
+}

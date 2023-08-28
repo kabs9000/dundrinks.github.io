@@ -1,0 +1,50 @@
+/*asdf*/
+
+.mesh{
+/*     border: 2px solid grey; */
+/*     padding: 5px; */
+    margin: 5px 0;
+/*    background: rgba(255, 255, 255, .7);*/
+/*     background: linear-gradient(45deg, transparent, transparent, purple); */
+    padding: 5px;
+    padding-bottom: 0;
+}
+
+.mesh-name{
+    margin-bottom: 0px;
+    display: block;
+    padding-bottom: 0px;
+}
+.mesh-desc{
+    font-size: .8rem;
+    margin-bottom: 10px;
+/*     display: inline-block; */
+}
+
+#content{
+    padding-top: 120px;
+/*     border: 1px solid; */
+}
+
+#add-mesh{
+    position: fixed;
+    right: 10px;
+    top: 90px;
+}
+
+.mesh-edited,
+.mesh-owner{
+    font-size: .7rem;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 1px 3px;
+}
+
+.column.thumb{
+    max-width: 200px;
+    margin-right: 10px;
+}
+.public-boards.column{
+    max-width: 75%;
+    padding-right: 50px;
+}

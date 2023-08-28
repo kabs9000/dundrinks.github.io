@@ -1,0 +1,157 @@
+/*asdf*/
+
+#content{
+    background: #84f7682e;
+    max-width: 800px;
+    width: 100%;
+}
+.post-title.post-field {
+  font-size: 30px;
+  font-weight: bold;
+}
+.post-attribution.post-field {
+  font-size: 20px;
+}
+.post-field{
+    position: static;
+    background: #fdcd7300;
+}
+.post-field .button{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.post-field{
+    white-space: pre-wrap;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.post-title>*{
+    display: inline-block;
+    width: 100%;    
+    font-size: 40px;
+}
+.post-attribution,
+.post-author{
+    font-size: .8rem;
+    padding-left: 25px;
+}
+.post-attribution{
+    /*     padding: 20px 25px 20px 20px; */
+}
+.post-author{
+    font-weight: initial;
+}
+.post-description{
+    padding: 25px;
+    background: #bdf4ae;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+#add-wrapper{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.modal.add_comment textarea{
+    min-height: 200px;
+}
+
+.comment-wrap{
+    position: relative;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #00ff1c4f;
+}
+.comment-wrap:hover{
+    background: #e5e5e5;
+}
+.comment-title{
+    font-weight: bold;
+    margin: 10px 0
+}
+.comment-content{
+    padding-left: 20px;
+}
+.comment-votes{
+    position: absolute;
+    top: -10;
+    right: 0;
+    font-size: .8rem;
+}
+.comment-voting{
+    text-align: right;
+}
+.comment-voting .button{
+    font-size: .9rem;
+}
+
+#comments{
+    margin-top: 50px;
+}
+
+.comment-actions{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.comment-actions .button{
+    float: right;
+    font-size: .8rem;
+    display: none;
+    margin-left: 5px;
+    padding: 5px 20px;
+    border-radius: 12px;
+}
+.comment-respond{
+}
+.comment-rm{
+    background: #6e2121;
+}
+.comment-wrap:hover .button{
+    display: inline-block;
+}
+
+.embed-wrap{
+/*     border: 1px solid; */
+}
+.text-section{
+/*     border: 1px solid pink; */
+}
+.embed-section{
+/*     border: 1px solid blue; */
+    text-align: left;
+}
+.embed-section a{
+    display: inline-block;
+
+    font-size: .8rem;
+/*     border: 1px solid; */
+}
+.embed-section iframe{
+    display: inline-block;
+}
+.embed-wrap,
+.text-section,
+.embed-section{
+    padding: 5px;
+    margin: 5px 0
+}
+.missing-embed{
+/*     border: 1px solid red; */
+}
+.embed-pdf-wrap{
+    display: inline-block;
+    width: 100%;
+/*     border: 1px solid; */
+}
+.embed-image-wrap{
+/*     border: 1px solid; */
+}
+

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Shoggoth for inflatable
+* source:	https://sketchfab.com/3d-models/shoggoth-for-inflatable-93565e3c124a42fab26c6bf0e3e03a44
+* author:	briligg (https://sketchfab.com/briligg)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Shoggoth for inflatable" (https://sketchfab.com/3d-models/shoggoth-for-inflatable-93565e3c124a42fab26c6bf0e3e03a44) by briligg (https://sketchfab.com/briligg) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
